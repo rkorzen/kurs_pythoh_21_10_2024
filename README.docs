@@ -1,0 +1,13 @@
+<h2 id="sprawy-orgnizacyjne">Sprawy orgnizacyjne</h2>
+<h3 id="przerwy">Przerwy:</h3>
+<ul>
+<li>10:30 - 10:45</li>
+<li>12:00 - 12:15</li>
+<li>13:30 - 14:15</li>
+</ul>
+<h2 id="podstawowe-polecenia-git">Podstawowe polecenia git</h2>
+<p>git init</p>
+<p>git add git commit git commit -m “<git message>”</p>
+<p>git status</p>
+<p>git push <zrodlo> <branch> git pull <zrodlo> <branch> git clone
+<adres></p>
