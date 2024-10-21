@@ -77,3 +77,6 @@ print()
 napis = "ala ma kota"
 
 print(napis[0])
+
+""
+''
