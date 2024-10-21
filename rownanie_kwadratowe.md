@@ -8,11 +8,11 @@ $ax^2 + bx + c = 0$
 #### Szczegóły:
 
 1. Program powinien przyjmować współczynniki \(a\), \(b\), i \(c\) jako argumenty wiersza poleceń.
-2. Oblicz deltę ( $\Delta = b^2 - 4ac $) i wyświetl ją wraz z wyjaśnieniem kroków obliczeń.
+2. Oblicz deltę ( $\Delta = b^2 - 4ac$) i wyświetl ją wraz z wyjaśnieniem kroków obliczeń.
 3. Na podstawie delty rozstrzygnij liczbę miejsc zerowych funkcji:
-   - Jeśli $ \Delta > 0 $, oblicz i wyświetl dwa różne miejsca zerowe.
-   - Jeśli $ \Delta = 0 $, oblicz i wyświetl jedno podwójne miejsce zerowe.
-   - Jeśli $ \Delta < 0 $, wyświetl informację, że brak jest miejsc zerowych (brak rozwiązań rzeczywistych).
+   - Jeśli $\Delta > 0$, oblicz i wyświetl dwa różne miejsca zerowe.
+   - Jeśli $\Delta = 0$, oblicz i wyświetl jedno podwójne miejsce zerowe.
+   - Jeśli $\Delta < 0$, wyświetl informację, że brak jest miejsc zerowych (brak rozwiązań rzeczywistych).
 4. Program powinien dokładnie wyświetlać kroki, w tym:
    - Obliczenie delty z wyjaśnieniem wzoru.
    - Obliczenie miejsc zerowych (lub informację o ich braku) na podstawie delty.
