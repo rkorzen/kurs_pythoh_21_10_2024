@@ -122,3 +122,29 @@ print(b.issuperset(c))
 print(c.issubset(b))
 
 
+##
+
+slownik = {"Rafał": 5}
+
+
+slownik["Rafał"] = slownik.get("Rafał", 0) + 1
+# slownik["Adam"] = slownik.get("Adam", 0) + 1
+
+if "Adam" in slownik:
+    slownik["Adam"] += 1
+else:
+    slownik["Adam"] = 1
+
+print(slownik)
+
+print(slownik.keys())
+print(slownik.values())
+print(slownik.items())
+
+dane = [('Rafał', 6), ('Adam', 1)]
+
+print(dict(dane))
+
+dane2 = dict(a=1, b=2)
+
+print(dane2)
