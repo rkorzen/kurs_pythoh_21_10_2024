@@ -22,24 +22,18 @@ formatuj(
 """
 
 def foo(*args, **kwargs):
-    print(args)
-    print(kwargs)
+    text = "\n".join(args)
+    for k, v in kwargs.items():
+        text = text.replace(f"${k}", str(v))
+    return text
 
-
-foo(
+t = foo(
     'koszt $cena PLN',
     'kwota $cena brutto',
     'podatek vat wynosi $vat',
+    'moj zwierza to $kot',
     cena=10,
-    vat=20
+    vat=20,
+    kot="mruczek"
 )
-
-text = "koszt $cena PLN"
-print(text.replace("$cena", "10"))
-
-texty = ['koszt $cena PLN',
-    'kwota $cena brutto',
-    'podatek vat wynosi $vat',]
-
-
-print("-".join(texty))
+print(t)
