@@ -7,10 +7,13 @@
 #
 #
 
+ostatnie_zalogowanie = {}
 
 with open("dane/data.txt") as f:
     for line in f:
-        a, b, c = line.strip().split(",")
+        nick, action, t = line.strip().split(",")
+
+        c =
         print(int(a) + int(b) + int(c))
 
 
