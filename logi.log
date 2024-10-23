@@ -1,0 +1,17 @@
+DEBUG:root:Najniższy poziom
+INFO:root:Info
+WARNING:root:Warning
+ERROR:root:Warning
+CRITICAL:root:Warning
+WARNING:root:Warning
+ERROR:root:Warning
+CRITICAL:root:Warning
+WARNING:root:Warning
+ERROR:root:Warning
+CRITICAL:root:Warning
+WARNING:root:Warning
+ERROR:root:Warning
+CRITICAL:root:Warning
+2024-10-23 10:27:40,204 Warning
+2024-10-23 10:27:40,204 Warning
+2024-10-23 10:27:40,204 Warning
